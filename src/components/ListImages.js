@@ -4,5 +4,6 @@ export default function ListImages({ listIMG }) {
   const renderImg = listIMG.map((img) => {
     return <ImageShow url={img.urls.small} key={img.id} />;
   });
-  return <div className="listImg">{renderImg}</div>;
+    return <div className="listImg">{renderImg}</div>;
+    
 }
